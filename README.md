@@ -83,7 +83,7 @@ services:
 
 若要开启相应服务,只需配置对应环境的env的数据库地址与账号密码,数据库密码不能为空。
 
-> - ONLY_CONFIG: 若是分布式部署或是kubernetes中部署,可配置值为`TRUE`,使得容器中只启动config服务,节省内存资源.详细用法参考wiki.
+> - ONLY_CONFIG: 若是分布式部署或是kubernetes中部署,可配置值为`TRUE`,使得容器中只启动config服务;ONLY_ADMIN: 若是分布式部署或是kubernetes中部署,可配置值为`TRUE`,使得容器中只启动admin服务;节省内存资源.详细用法参考wiki.
 
 Portal:
 > - PORTAL_DB: portal 的数据库地址, 未设置则代表不开启该服务
