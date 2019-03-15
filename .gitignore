@@ -1,0 +1,12 @@
+bin/
+target
+.class
+.classpath
+.project
+*.prefs
+*.log
+hc-mybatis-generator
+hc-mybatis-generator/*
+hc-mybatis-generator.zip
+.idea/
+*.iml
